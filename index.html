@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="page-head">
-      <div class="container">
+      <div class="container header-container">
         <nav class="main-nav">
           <a href="./index.html" class="logo"
             >Web<span class="black-text">Studio</span></a
@@ -36,30 +36,99 @@
         </nav>
 
         <address class="address">
-          <ul class="adress-list">
-            <li class="adress-item">
+          <ul class="address-list">
+            <li class="address-item">
               <a href="mailto:info@devstudio.com" class="contact-info"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="adress-item">
+            <li class="address-item">
               <a href="tel:+110001111111" class="contact-info"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-icon"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="close-menu-btn">
+            <svg class="close-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="navi-menu">
+            <ul class="navi-menu-list">
+              <li>
+                <a href="./index.html" class="navi-menu-item underline"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="" class="navi-menu-item">Portfolio</a></li>
+              <li><a href="" class="navi-menu-item">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="menu-address">
+            <ul class="menu-address-list">
+              <li class="menu-address-item">
+                <a href="mailto:info@devstudio.com" class="menu-contact-info"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+110001111111" class="menu-contact-info"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-social-list">
+            <li class="menu-social-item">
+              <a href="#" class="menu-social-link"
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a href="#" class="menu-social-link"
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a href="#" class="menu-social-link"
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a href="#" class="menu-social-link"
+                ><svg class="menu-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section class="solutions">
+      <section class="hiden" class="solutions">
         <div class="container">
           <h1 class="main-head">Effective Solutions for Your Business</h1>
           <button type="button" class="order-btn">Order Service</button>
         </div>
       </section>
 
-      <section class="strengths">
+      <section class="hiden" class="strengths">
         <div class="container">
           <h2 class="visually-hidden">Our Strengths</h2>
           <ul class="str-list">
@@ -115,7 +184,7 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="hiden" class="team">
         <div class="container">
           <h2 class="team-head">Our Team</h2>
           <ul class="team-list">
@@ -295,7 +364,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="hiden" class="portfolio">
         <div class="container">
           <h2 class="port-head">Our Portfolio</h2>
           <ul class="port-list">
@@ -417,7 +486,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="hiden" class="footer">
       <div class="container footer-container">
         <div class="footer-base-container">
           <a href="./index.html" class="logo"
@@ -485,7 +554,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="hiden" class="backdrop">
       <div class="modal">
         <button type="button" class="close-modal-btn">
           <svg class="modal-close-icon" width="8" height="8">
