@@ -385,7 +385,6 @@ header .logo {
 .footer-container {
   display: flex;
   align-items: baseline;
-  /* margin-right: 120px; */
 }
 .footer-base-container {
   margin-right: 120px;
