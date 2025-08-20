@@ -75,14 +75,14 @@
           </nav>
           <address class="menu-address">
             <ul class="menu-address-list">
+              <li class="address-item">
+                <a href="tel:+110001111111" class="menu-contact-info underline"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
               <li class="menu-address-item">
                 <a href="mailto:info@devstudio.com" class="menu-contact-info"
                   >info@devstudio.com</a
-                >
-              </li>
-              <li class="address-item">
-                <a href="tel:+110001111111" class="menu-contact-info"
-                  >+11 (000) 111-11-11</a
                 >
               </li>
             </ul>
@@ -139,7 +139,7 @@
                 </svg>
               </div>
               <h3 class="head-style">Strategy</h3>
-              <p class="para-style">
+              <p class="para-style-sol">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -151,7 +151,7 @@
                 </svg>
               </div>
               <h3 class="head-style">Punctuality</h3>
-              <p class="para-style">
+              <p class="para-style-sol">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -163,7 +163,7 @@
                 </svg>
               </div>
               <h3 class="head-style">Diligence</h3>
-              <p class="para-style">
+              <p class="para-style-sol">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
@@ -175,7 +175,7 @@
                 </svg>
               </div>
               <h3 class="head-style">Technologies</h3>
-              <p class="para-style">
+              <p class="para-style-sol">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -185,7 +185,7 @@
       </section>
 
       <section class="team">
-        <div class="container">
+        <div class="container team-container">
           <h2 class="team-head">Our Team</h2>
           <ul class="team-list">
             <li class="li-style">
@@ -484,8 +484,8 @@
                   <source
                     media="(max-width: 767px )"
                     srcset="
-                      ./images/portfolio/meditation-mob-min.jpg    1x,
-                      ./images/portfolio/meditation-mob@2x-min.jpg 2x
+                      ./images/portfolio/mediation-mob-min.jpg    1x,
+                      ./images/portfolio/mediation-mob@2x-min.jpg 2x
                     "
                   />
                   <img
@@ -520,8 +520,8 @@
                   <source
                     media="(min-width:768px )"
                     srcset="
-                      ./images/portfolio/taxi-tab-min.jpg    1x,
-                      ./images/portfolio/taxi-tab@2x-min.jpg 2x
+                      ./images/portfolio/taxi-tablet-min.jpg    1x,
+                      ./images/portfolio/taxi-tablet@2x-min.jpg 2x
                     "
                   />
                   <source
@@ -563,8 +563,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/portfolio/screen-tab-min.jpg    1x,
-                      ./images/portfolio/screen-tab@2x-min.jpg 2x
+                      ./images/portfolio/csreen-tab-min.jpg    1x,
+                      ./images/portfolio/csreen-tab@2x-min.jpg 2x
                     "
                   />
                   <source
@@ -708,7 +708,7 @@
         </div>
       </div>
     </footer>
-    <div class="hiden" class="backdrop">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="close-modal-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -784,8 +784,10 @@
                   <use href="./images/icons.svg#icon-chek"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privacy-link" href="./">Privacy Policy</a></label
+              <span>
+                I accept the terms and conditions of the
+                <a class="privacy-link" href="./">Privacy Policy</a>
+              </span></label
             >
           </div>
           <button class="submit-modal-btn" type="submit">Send</button>
